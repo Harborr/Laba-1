@@ -28,7 +28,7 @@ int main(){
 
     while (true) {
         showMainMenu();
-        cin << choice;
+        cin >> choice;
 
         if (cin.fail()) {
             cout << "Число введи, братан" << endl;
