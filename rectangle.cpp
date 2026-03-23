@@ -53,9 +53,9 @@ void rectangleMenu() {
 
         //Вводим стороны прямоугольника
         cout << "\nВведите длину прямоугольника:";
-        length = getPositiv("");
+        length = getPositive("");
         cout << "\nВведите ширину прямоугольника:";
-        width = getPositiv("");
+        width = getPositive("");
 
         switch (choice) {
             case 1: {
@@ -70,7 +70,7 @@ void rectangleMenu() {
             }
             case 3: {
                 double diagonal = sqrt(length * length + width * width);
-                cout << "\nДлина диагонали прямоугольника: " << perimeter << endl;
+                cout << "\nДлина диагонали прямоугольника: " << diagonal << endl;
                 break;
             }
             default:
