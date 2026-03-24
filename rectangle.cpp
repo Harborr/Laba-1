@@ -47,7 +47,10 @@ void rectangleMenu() {
             clearInput();
             continue;
         }
-        
+        if (choice == 0){
+            break;
+        }
+
         //Вводим стороны прямоугольника
         cout << "\nВведите длину прямоугольника:";
         length = getPositive("");
@@ -68,9 +71,6 @@ void rectangleMenu() {
             case 3: {
                 double diagonal = sqrt(length * length + width * width);
                 cout << "\nДлина диагонали прямоугольника: " << diagonal << endl;
-                break;
-            }
-            case 0: {
                 break;
             }
             default:
