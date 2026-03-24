@@ -37,7 +37,7 @@ void rectangleMenu() {
         cout << "\n 1. Найти периметр" << endl;
         cout << "\n 2. Найти площадь" << endl;
         cout << "\n 3. Найти длину диагонали" << endl;
-        cout << "\n 0. Поккинуть программу" << endl;
+        cout << "\n 0. Покинуть программу" << endl;
         cout << "\n Чё те, братуха?" << endl;
 
         cin >> choice;
