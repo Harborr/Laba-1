@@ -1,6 +1,8 @@
 # include "iostream"
 # include "limits"
 # include "rectangle.h"
+# include "triangle.h"
+# include "circle.h"
 
 using namespace std;
 
@@ -39,19 +41,19 @@ int main(){
 
         switch (choice) {
             case 1:
-            rectangleMenu(); // Вызов меню прямоугольника
-            break;
+                rectangleMenu(); // Вызов меню прямоугольника
+                break;
             case 2:
-            triangleMenu(); // Вызов меню треугольника
-            break;
+                triangleMenu(); // Вызов меню треугольника
+                break;
             case 3:
-            circleMenu(); // Вызов меню окружности
-            break;
+                circleMenu(); // Вызов меню окружности
+                break;
             case 0:
-            cout << "\nСпасибо за использование КАЛЬКУЛЯТОР 30000" << endl;
-            return 0;         
+                cout << "\nСпасибо за использование КАЛЬКУЛЯТОР 30000" << endl;
+                return 0;         
+        }
     }
-}
 
-return 0;
+    return 0;
 }
