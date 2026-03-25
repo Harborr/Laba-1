@@ -18,6 +18,7 @@ void showMainMenu() {
     cout << "\n==================" << endl;
     cout << " 1. Прямоугольник" << endl;
     cout << " 2. Треугольник" << endl;
+    cout << " 3. Окружность" << endl;
     cout << " 0. Выход из программы" << endl;
 }
 
@@ -39,8 +40,13 @@ int main(){
         switch (choice) {
             case 1:
             rectangleMenu(); // Вызов меню прямоугольника
+            break;
             case 2:
-            return 0;
+            triangleMenu(); // Вызов меню треугольника
+            break;
+            case 3:
+            circleMenu(); // Вызов меню окружности
+            break;
             case 0:
             cout << "\nСпасибо за использование КАЛЬКУЛЯТОР 30000" << endl;
             return 0;         
