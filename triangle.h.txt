@@ -1,7 +1,0 @@
-#ifndef TRIANGLE_H
-#define TRIANGLE_H
-
-// Функции для работы с треугольником
-void triangleMenu();
-
-#endif
