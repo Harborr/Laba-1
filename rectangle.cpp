@@ -70,7 +70,7 @@ void rectangleMenu() {
             }
             case 3: {
                 double diagonal = sqrt(length * length + width * width);
-                cout << "\nДлина диагонали прямоугольника: " << diagonal << endl;
+                cout << "\nLLДлина диагонали прямоугольника: " << diagonal << endl;
                 break;
             }
             default:
