@@ -36,6 +36,7 @@ double getAngle(const string& prompt) {
         cin >> angle;
         
         if (cin.fail() || angle <= 0 || angle > 360) {
+            cout << "NE TUPI" << endl;
             cout << "Ошибка: введите угол от 0 до 360 градусов!" << endl;
             clearCircleInput();
         } else {
@@ -52,9 +53,9 @@ void circleMenu() {
     
     while (true) {
         cout << "\n=== ОКРУЖНОСТЬ ===" << endl;
-        cout << "1. Найти длину окружности" << endl;
-        cout << "2. Найти площадь круга" << endl;
-        cout << "3. Найти площадь кругового сектора" << endl;
+        cout << "1. Найти длину окружности." << endl;
+        cout << "2. Найти площадь круга." << endl;
+        cout << "3. Найти площадь кругового сектора." << endl;
         cout << "0. Покинуть программу." << endl;
         cout << "Те чё, братан?: ";
         
